@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "dev": "webpack-dev-server --content-base public/ --progress --colors",
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -29,12 +29,13 @@
     "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
+    "css-loader": "^0.15.5",
     "express": "^4.13.3",
+    "jquery": "^2.2.3",
     "react": "^0.14.3",
     "react-addons": "^0.9.1-deprecated",
     "react-dom": "^0.14.3",
     "style-loader": "^0.12.4",
-    "css-loader": "^0.15.5",
     "webpack": "^1.12.9"
   }
 }

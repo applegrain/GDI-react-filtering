@@ -1,0 +1,13 @@
+body {
+  background-color: dodgerBlue;
+}
+
+input {
+  background-color: dodgerBlue;
+  border: none;
+  border-bottom: 2px solid yellow;
+}
+
+.listItems li {
+  list-style-type: none;
+}
