@@ -1,6 +1,6 @@
-# super simple react project
+# GDI React
 
-super simple react project setup with npm, webpack and babel.
+Code example with filtering in React using data pulled from the Sunlight API.
 
 ## 0. Up and Running 
 
